@@ -6,6 +6,9 @@ export interface CustomButtonProps {
   containerStyles?: String;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
   btnType?: "button" | "submit";
+  textStyles?: String;
+  rightIcon?: String;
+  isDisabled?: boolean;
 }
 
 export interface CustomFilterProps {
